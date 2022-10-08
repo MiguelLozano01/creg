@@ -17,7 +17,8 @@ function cargarJSON() {
                  <th>${precios.precio_acpm}</th>
                  </tr>`;
       })
-      document.getElementById('table now').innerHTML = html;
+      document.getElementById('table-now').innerHTML = html;
     })
 }
+
 
