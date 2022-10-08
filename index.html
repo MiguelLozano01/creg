@@ -17,14 +17,16 @@
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Inicio</a></li>
                 <li class="nav-item"><a href="modif_admin.html" class="nav-link">Modificar</a></li>
-                <li class="nav-item"><a href="agregar.html" class="nav-link">Crear</a></li>
             </ul>
         </header>
     </div>
-    <div class="general">
+     <div class="general">
         <div class="container">
             <h2>Result</h2>
-            <table class="table table-hover" id="resultTable">
+            <table class="table table-hover" id="tabla-front">
+                <li>
+                    <a href="#" id="jsonBtn" type="button">cargar</a>
+                </li>
                 <thead>
                     <tr>
                         <th>Ciudad</th>
@@ -33,14 +35,13 @@
                     </tr>
                 </thead>
                 <tbody>
-
-                </tbody>
+                    
+                </tbody> 
             </table>
         </div>
-        <script src="js/infoLogic.js"></script>
-        <script src="js/userLogic.js"></script>
-    </div>
+    </div> 
+    <script src="js/crudLogic.js"></script>
 </body>
 
 
-</html>
+</html> 
